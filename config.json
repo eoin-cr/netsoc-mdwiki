@@ -1,7 +1,7 @@
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "By <a href='http://www.devalias.net/'>Glenn '/dev/alias' Grant</a><br />",
+    "additionalFooterText": "Documentation written by <a href='https://github.com/eoin-cr'>Eoin Creavin</a><br/>",
     "anchorCharacter": "&para;",
     "title": "My Shiny New MDwiki"
 }
