@@ -7,4 +7,4 @@ Getting started
   * [Getting started](getting-started.md)
   * [Making changes to the site](change-site.md)
 
-![](https://netsoc.com/images/logo.png/300/300)
+![](netsoc_logo_100.png)

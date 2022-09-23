@@ -8,7 +8,7 @@ Subdomain files are stored in `/root/docker-nginx-jeckyll/_conf`.  To make a new
 ```
 server {
     listen 443;
-    server_name discord.netsoc.com;
+    server_name subdomain.netsoc.com;
 
     rewrite ^(.*) https://whatever.com permanent;
 }
