@@ -8,4 +8,5 @@ Getting started
   * [Making changes to the site](change-site.md)
   * [Updating certs](update-certs.md)
 
-![](netsoc_logo_100.png)
+    ![](netsoc_logo_100.png)
+  ![](http://placekitten.com/g/250/250)
