@@ -23,3 +23,23 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub username@netsoc.com
 ```
 
 You can now login without having to enter your password.
+
+## Setting up a shell alias
+You can set up an alias, which means you can simply type `netsoc` or the like, instead of having to type `ssh user@netsoc.com`.
+
+Firstly you'll want to check which shell you're using by running `which $SHELL` it will probably be `/bin/bash` although it may be another one.  Check online to see where the config file for the the shell.
+
+For bash run
+```
+nano ~/.bashrc
+```
+and then enter
+```
+alias netsoc='ssh user@netsoc.com'
+```
+(Note that the name does not have to be netsoc, it can be anything you want, just make sure it isn't already a command!)
+Then run
+```
+source ~/.bashrc
+```
+and the alias will be applied.
