@@ -10,3 +10,5 @@ Getting started
 
     ![](netsoc_logo_100.png)
   ![](http://placekitten.com/g/250/250)
+  ![](netsoc_logo_200.png)
+  ![](https://netsoc.com/images/logo.png =200x200)
