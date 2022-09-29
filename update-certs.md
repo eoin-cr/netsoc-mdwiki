@@ -8,3 +8,5 @@ and enter your password to become the root user (the restart-server script can o
 # /root/docker-nginx-jekyll/restart-server.sh
 ```
 The certs should now all be renewed for another 90 days.
+
+**Note**: I believe I have fixed the script so the certs should renew automatically.
