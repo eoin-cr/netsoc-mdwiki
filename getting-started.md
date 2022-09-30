@@ -16,7 +16,9 @@ You will then be asked for your password.  After entering it, you will be logged
 ## Setting up ssh keys
 You can set up an ssh key pair, so you will not be asked for your password every time you login.
 
-First create the key pair (you will be given the option to enter a passphrase. This passphrase deals with how the key pair is stored, so if you enter a passphrase you will have to enter it every time you try to log into the server in order to unencrypt your ssh private key (the passphrase does not have to be the same as the password to your account on the server))
+First create the key pair.  You will be given the option to enter a passphrase. This passphrase deals with how the key pair is stored, so if you enter a passphrase you will have to enter it every time you try to log into the server in order to unencrypt your ssh private key (the passphrase does not have to be the same as the password to your account on the server).
+
+*(run these commands on your own computer, not on the server)*
 ```
 $ ssh-keygen -t rsa
 ```
@@ -31,6 +33,8 @@ You can now login without having to enter your password.
 You can set up an alias, which means you can simply type `netsoc` or the like, instead of having to type `ssh user@netsoc.com`.
 
 Firstly you'll want to check which shell you're using by running `which $SHELL`. It will probably be `/bin/bash` although it may be another one.  Check online to see where the config file for the the shell is located if you're using a different one.
+
+*(run these commands on your own computer, not on the server)*
 
 For bash run
 ```
